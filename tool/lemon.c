@@ -7,6 +7,7 @@
 ** The author of this program disclaims copyright.
 */
 #include <stdio.h>
+#include <stdlib.h>
 #include <stdarg.h>
 #include <string.h>
 #include <ctype.h>

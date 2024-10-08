@@ -214,6 +214,7 @@ parse.c:	$(TOP)/src/parse.y lemon
 #
 config.h:	
 	echo '#include <stdio.h>' >temp.c
+	echo '#include <stdlib.h>' >>temp.c
 	echo 'int main(){printf(' >>temp.c
 	echo '"#define SQLITE_PTR_SZ %d",sizeof(char*));' >>temp.c
 	echo 'exit(0);}' >>temp.c
